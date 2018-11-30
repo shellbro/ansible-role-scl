@@ -1,6 +1,6 @@
 ---
 
-- name: add Software Collection repository
+- name: add Software Collections repository
   yum:
     name: centos-release-scl-rh
   become: true

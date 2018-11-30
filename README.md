@@ -1,5 +1,7 @@
-scl
-===
+shellbro.scl
+============
+
+[![Build Status](https://travis-ci.org/shellbro/ansible-role-scl.svg?branch=master)](https://travis-ci.org/shellbro/ansible-role-scl)
 
 Ansible role for installing Software Collections on CentOS 7.
 
@@ -23,7 +25,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-          - shellbro.scl
+        - shellbro.scl
 
 License
 -------
